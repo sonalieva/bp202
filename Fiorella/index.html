@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap");
+    </style>
+    <script src="./assets/JS/script.js" defer></script>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <title>FIORELLO</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h2-logo-1.png"
+                alt="fiorello_logo" />
+            <ul id="navbar_ul">
+                <li class="navbar_ul_li "><a href="" style="text-decoration: underline">
+                        HOME</a>
+                    <div id="home-drpdwn-content" class="dropdown-content item-position">
+                        <ul class="inner-dropdown-content">
+                            <li><a href="#" class="hover-underline-a">Main Home</a></li>
+                            <li><a href="#" class="hover-underline-a">Grid Home</a></li>
+                            <li><a href="#" class="hover-underline-a">Flower Shop</a></li>
+                            <li><a href="#" class="hover-underline-a">Animated Slider</a></li>
+                            <li><a href="#" class="hover-underline-a">Metro Showcase</a></li>
+                            <li><a href="#" class="hover-underline-a">Carousel Showcase</a></li>
+                            <li><a href="#" class="hover-underline-a">Landing</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="navbar_ul_li hover-underline"><a href="">
+                        PAGES</a>
+                    <div id="pages-drpdwn-content" class="dropdown-content item-position">
+                        <ul class="inner-dropdown-content">
+                            <li><a href="#" class="hover-underline-a">About Us</a></li>
+                            <li><a href="#" class="hover-underline-a">FAQ Page</a></li>
+                            <li><a href="#" class="hover-underline-a">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar_ul_li hover-underline"><a href="">
+                        SHOP</a>
+                    <div id="shop-drpdwn-content" class="dropdown-content item-position">
+                        <ul class="inner-dropdown-content">
+                            <li>
+                                <a href="#">
+                                    <h2 class="shop-h2-font">Product Types</h2>
+                                </a>
+                            </li>
+                            <li><a href="#" class="hover-underline-a" class="hover-underline-a">Standart Product</a>
+                            </li>
+                            <li><a href="#" class="hover-underline-a">Grouped Product</a></li>
+                            <li><a href="#" class="hover-underline-a">Variable Product</a></li>
+                            <li><a href="#" class="hover-underline-a">Virtual Product</a></li>
+                            <li><a href="#" class="hover-underline-a">External Product</a></li>
+                            <li><a href="#" class="hover-underline-a">Downloadable Product</a></li>
+                            <li><a href="#" class="hover-underline-a">On Sale Product</a></li>
+                            <li><a href="#" class="hover-underline-a">Out of Stock Product</a></li>
+                            <li><a href="#" class="hover-underline-a">New Product</a></li>
+                        </ul>
+                        <ul class="inner-dropdown-content">
+                            <li>
+                                <a href="#">
+                                    <h2 class="shop-h2-font">Shop Pages</h2>
+                                </a>
+                            </li>
+                            <li><a href="#" class="hover-underline-a">My Account</a></li>
+                            <li><a href="#" class="hover-underline-a">Cart</a></li>
+                            <li><a href="#" class="hover-underline-a">Checkout</a></li>
+                            <li><a href="#" class="hover-underline-a">Orders</a></li>
+                            <li><a href="#" class="hover-underline-a">Downloads</a></li>
+                        </ul>
+                        <ul class="inner-dropdown-content">
+                            <li>
+                                <a href="#">
+                                    <h2 class="shop-h2-font">Shop Types</h2>
+                                </a>
+                            </li>
+                            <li><a href="#" class="hover-underline-a">Product List</a></li>
+                            <li><a href="#" class="hover-underline-a">Without Sidebar</a></li>
+                            <li><a href="#" class="hover-underline-a">With Category Filter</a></li>
+                            <li><a href="#" class="hover-underline-a">With Ordering Filter</a></li>
+                            <li><a href="#" class="hover-underline-a">Shop Carousel</a></li>
+                            <li><a href="#" class="hover-underline-a">Product Categories</a></li>
+                            <li><a href="#" class="hover-underline-a">Single Category</a></li>
+                        </ul>
+                        <ul class="inner-dropdown-content">
+                            <li>
+                                <a href="#">
+                                    <h2 class="shop-h2-font">Shop Layouts</h2>
+                                </a>
+                            </li>
+                            <li><a href="#" class="hover-underline-a">Two Columns Grid List</a></li>
+                            <li><a href="#" class="hover-underline-a">Three Columns Grid List</a></li>
+                            <li><a href="#" class="hover-underline-a">Four Columns Grid List</a></li>
+                            <li><a href="#" class="hover-underline-a">Four Columns Grid List</a></li>
+                            <li><a href="#" class="hover-underline-a">Five Columns Grid List</a></li>
+                            <li><a href="#" class="hover-underline-a">Six Columns Grid List</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar_ul_li hover-underline"><a href="">
+                        PORTFOLIO</a>
+                    <div id="portfolio-drpdwn-content" class="dropdown-content item-position">
+                        <ul class="inner-dropdown-content">
+                            <li><a href="#" class="hover-underline-a">Standart</a></li>
+                            <li><a href="#" class="hover-underline-a">Gallery</a></li>
+                            <li><a href="#" class="hover-underline-a">Masonry</a></li>
+                            <li id="prtfl-layout">
+                                <a href="#" class="hover-underline-a">Portfolio Layout</a><i
+                                    class="fa-solid fa-angle-right"></i>
+                                <div class="dropdown-content item-position portfolio-innerdrpdwn-cnt">
+                                    <ul class="double-inner-dropdown-content">
+                                        <li><a href="#" class="hover-underline-a">Two Columns</a></li>
+                                        <li><a href="#" class="hover-underline-a">Three Columns</a></li>
+                                        <li><a href="#" class="hover-underline-a">Four Columns</a></li>
+                                        <li><a href="#" class="hover-underline-a">Four Columns Wide</a></li>
+                                        <li><a href="#" class="hover-underline-a">Five Columns Wide</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="prtfl-layout">
+                                <a href="#" class="hover-underline-a">Portfolio Single </a><i
+                                    class="fa-solid fa-angle-right"></i>
+                                <div class="dropdown-content item-position portfolio-innerdrpdwn-cnt">
+                                    <ul class="double-inner-dropdown-content">
+                                        <li><a href="#" class="hover-underline-a">Small Images</a></li>
+                                        <li><a href="#" class="hover-underline-a">Small Slider</a></li>
+                                        <li><a href="#" class="hover-underline-a">Big Images</a></li>
+                                        <li><a href="#" class="hover-underline-a">Big Slader</a></li>
+                                        <li><a href="#" class="hover-underline-a">Gallery</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar_ul_li hover-underline"><a href="">
+                        BLOG</a>
+                    <div id="blog-drpdwn-content" class="dropdown-content item-position">
+                        <ul class="inner-dropdown-content">
+                            <li><a href="#" class="hover-underline-a">Masonry</a></li>
+                            <li><a href="#" class="hover-underline-a">Standart</a></li>
+                            <li id="post-types"><a href="#" class="hover-underline-a">Post Types</a><i
+                                    class="fa-solid fa-angle-right"></i>
+                                <div class="dropdown-content item-position post-types-innerdrpdwn-cnt">
+                                    <ul class="double-inner-dropdown-content">
+                                        <li><a href="#" class="hover-underline-a">Standart</a></li>
+                                        <li><a href="#" class="hover-underline-a">Gallery</a></li>
+                                        <li><a href="#" class="hover-underline-a">Link</a></li>
+                                        <li><a href="#" class="hover-underline-a">Quote</a></li>
+                                        <li><a href="#" class="hover-underline-a">Audio</a></li>
+                                        <li><a href="#" class="hover-underline-a">Video</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="navbar_ul_li hover-underline"><a href="">
+                        ELEMENTS</a>
+                    <div id="elements-drpdwn-content" class="dropdown-content item-position">
+                        <ul class="inner-dropdown-content">
+                            <li id="classic"><a href="#" class="hover-underline-a">Classic</a>
+                                <i class="fa-solid fa-angle-right"></i>
+                                <div class="dropdown-content item-position classic-innerdrpdwn-cnt">
+                                    <ul class="double-inner-dropdown-content">
+                                        <li><a href="#" class="hover-underline-a">Accordions</a></li>
+                                        <li><a href="#" class="hover-underline-a">Tabs</a></li>
+                                        <li><a href="#" class="hover-underline-a">Buttons</a></li>
+                                        <li><a href="#" class="hover-underline-a">Video Button</a></li>
+                                        <li><a href="#" class="hover-underline-a">Contact Form</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <li id="infographic"><a href="#" class="hover-underline-a">Infographic</a><i
+                                    class="fa-solid fa-angle-right"></i>
+                                <div class="dropdown-content item-position infographic-innerdrpdwn-cnt">
+                                    <ul class="double-inner-dropdown-content">
+                                        <li><a href="#" class="hover-underline-a">Blog List</a></li>
+                                        <li><a href="#" class="hover-underline-a">Counters</a></li>
+                                        <li><a href="#" class="hover-underline-a">Countdown</a></li>
+                                        <li><a href="#" class="hover-underline-a">Google Maps</a></li>
+                                        <li><a href="#" class="hover-underline-a">Progress Bar</a></li>
+                                        <li><a href="#" class="hover-underline-a">Pie Charts</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="interactive"><a href="#" class="hover-underline-a">Interactive</a><i
+                                    class="fa-solid fa-angle-right"></i>
+                                <div class="dropdown-content item-position interactive-innerdrpdwn-cnt">
+                                    <ul class="double-inner-dropdown-content">
+                                        <li><a href="#" class="hover-underline-a">Image Gallery</a></li>
+                                        <li><a href="#" class="hover-underline-a">Testimonials</a></li>
+                                        <li><a href="#" class="hover-underline-a">Team</a></li>
+                                        <li><a href="#" class="hover-underline-a">Banner</a></li>
+                                        <li><a href="#" class="hover-underline-a">Shop List</a></li>
+                                        <li><a href="#" class="hover-underline-a">Portfolio List</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="typography"><a href="#" class="hover-underline-a">Typography</a><i
+                                    class="fa-solid fa-angle-right"></i>
+                                <div class="dropdown-content item-position typography-innerdrpdwn-cnt">
+                                    <ul class="double-inner-dropdown-content">
+                                        <li><a href="#" class="hover-underline-a">Headings</a></li>
+                                        <li><a href="#" class="hover-underline-a">Columns</a></li>
+                                        <li><a href="#" class="hover-underline-a">Section Title</a></li>
+                                        <li><a href="#" class="hover-underline-a">Blockquote</a></li>
+                                        <li><a href="#" class="hover-underline-a">Dropcaps</a></li>
+                                        <li><a href="#" class="hover-underline-a">Higlights</a></li>
+                                        <li><a href="#" class="hover-underline-a">Separators</a></li>
+                                        <li><a href="#" class="hover-underline-a">Custom Font</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="search_icon navbar_ul_li">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+                <li class="navbar_ul_li"><i class="fa-solid fa-bag-shopping"></i>CART($0)
+                    <div id="home-drpdwn-content" class="dropdown-content item-position">
+                        <ul class="inner-dropdown-content">
+                            <li><a href="#">No products in the cart.</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+            <div id="hamburger-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+
+        <div id="sidebar">
+            <div id="close-icon"><i class="fa-solid fa-xmark"></i></div>
+            <ul class="sidebar-menu">
+                <li id="home-sdb-drpdwn" class="sidebar-menu-content ">HOME<i class="fa-solid fa-caret-down"></i>
+                    <div id="home-sdb-drpdwn-content" class="sdb-dropdown">
+                        <ul>
+                            <li><a href="">Main Home</a></li>
+                            <li><a href=""> Grid Home</a></li>
+                            <li><a href="">Flower Shop</a> </li>
+                            <li><a href=""> Animated Slider</a></li>
+                            <li><a href=""> Metro Showcase</a></li>
+                            <li><a href=""> Carousel Showcase</a></li>
+                            <li><a href="">Landing</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="pages-sdb-drpdwn" class="sidebar-menu-content">PAGES<i class="fa-solid fa-caret-right"></i>
+                    <div id="pages-sdb-drpdwn-content" class="sdb-dropdown">
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">FAQ Page</a></li>
+                            <li><a href="">Contact US</a> </li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="shop-sdb-drpdwn" class="sidebar-menu-content">SHOP<i class="fa-solid fa-caret-right"></i>
+                    <div id="shop-sdb-drpdwn-content" class="sdb-dropdown">
+                        <ul>
+                            <li id="prdct-types-drpdwn"><a href="">PRODUCT TYPES<i
+                                        class="fa-solid fa-caret-right"></i></a>
+                                <ul class="prdct-types-inner-drpdwn">
+                                    <li>Standart Product</li>
+                                    <li>Grouped Product</li>
+                                    <li>Variable Product</li>
+                                    <li>Virtual Product</li>
+                                    <li>External Product</li>
+                                    <li>Downloadable Product</li>
+                                    <li>On Sale Product</li>
+                                    <li>Out Of Stock Product</li>
+                                    <li>New Product</li>
+                                </ul>
+
+                            </li>
+                            <li id="shop-pages-drpdwn"><a href="">SHOP PAGES<i class="fa-solid fa-caret-right"></i></a>
+                                <ul class="shop-pages-inner-drpdwn">
+                                    <li>My Account</li>
+                                    <li>Cart</li>
+                                    <li>Checkout</li>
+                                    <li>Orders</li>
+                                    <li>Downloads</li>
+                                </ul>
+                            </li>
+                            <li id="shop-types-drpdwn"><a href="">SHOP TYPES<i class="fa-solid fa-caret-right"></i></a>
+                                <ul class="shop-types-inner-drpdwn">
+                                    <li>Product List</li>
+                                    <li>Without Sidebar</li>
+                                    <li>With Category Filter</li>
+                                    <li>With Ordering Filter</li>
+                                    <li>Shop Carousel</li>
+                                    <li>Product Categories</li>
+                                    <li>Single Category</li>
+                                </ul>
+                            </li>
+                            <li id="shop-layouts-drpdwn"><a href="">SHOP LAYOUTS<i
+                                        class="fa-solid fa-caret-right"></i></a>
+                                <ul class="shop-layouts-inner-drpdwn">
+                                    <li>Two Columns Grid</li>
+                                    <li>Three Columns Grid</li>
+                                    <li>Four Columns Grid</li>
+                                    <li>Four Columns Wide</li>
+                                    <li>Five Columns Wide</li>
+                                    <li>Six Columns Wide</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="portfolio-sdb-drpdwn" class="sidebar-menu-content">PORTFOLIO<i
+                        class="fa-solid fa-caret-right"></i>
+                    <div id="portfolio-sdb-drpdwn-content" class="sdb-dropdown">
+                        <ul>
+                            <li><a href="">Standart</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">Masonry</a> </li>
+                            <li id="portfolio-layouts-drpdwn"><a href="">Partfolio Layouts<i
+                                        class="fa-solid fa-caret-right"></i></a>
+                                <ul class="portfolio-layouts-inner-drpdwn">
+                                    <li>Two Columns </li>
+                                    <li>Three Columns </li>
+                                    <li>Four Columns </li>
+                                    <li>Four Columns Wide</li>
+                                    <li>Five Columns Wide</li>
+                                </ul>
+                            </li>
+                            <li id="portfolio-single-drpdwn"><a href="">Partfolio Single<i
+                                        class="fa-solid fa-caret-right"></i></a>
+                                <ul class="portfolio-single-inner-drpdwn">
+                                    <li>Small Images</li>
+                                    <li>Small Slider</li>
+                                    <li>Big Images</li>
+                                    <li>Big Slider</li>
+                                    <li>Gallery</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="blog-sdb-drpdwn" class="sidebar-menu-content">BLOG<i class="fa-solid fa-caret-right"></i>
+                    <div id="blog-sdb-drpdwn-content" class="sdb-dropdown">
+                        <ul>
+                            <li><a href="">Masonry</a></li>
+                            <li><a href="">Standart</a></li>
+                            <li id="post-types-drpdwn"><a href="">Post Types<i class="fa-solid fa-caret-right"></i></a>
+                                <ul class="post-types-inner-drpdwn">
+                                    <li>Standart</li>
+                                    <li>Gallery</li>
+                                    <li>Link</li>
+                                    <li>Quote</li>
+                                    <li>Audio</li>
+                                    <li>Video</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li id="elements-sdb-drpdwn" class="sidebar-menu-content">ELEMENTS<i
+                        class="fa-solid fa-caret-right"></i>
+                    <div id="elements-sdb-drpdwn-content" class="sdb-dropdown">
+                        <ul>
+                            <li id="classic-drpdwn"><a href="">Classic<i class="fa-solid fa-caret-right"></i></a>
+                                <ul class="classic-inner-drpdwn">
+                                    <li>Accordions</li>
+                                    <li>Tabs</li>
+                                    <li>Buttons</li>
+                                    <li>Video Buttons</li>
+                                    <li>Contact Form</li>
+                                </ul>
+                            </li>
+                            <li id="infographic-drpdwn"><a href="">Infographic<i
+                                        class="fa-solid fa-caret-right"></i></a>
+                                <ul class="infographic-inner-drpdwn">
+                                    <li>Blog List</li>
+                                    <li>Counters</li>
+                                    <li>Countdown</li>
+                                    <li>Google Maps</li>
+                                    <li>Progress Bar</li>
+                                    <li>Pie Charts</li>
+                                </ul>
+                            </li>
+                            <li id="interactive-drpdwn"><a href="">Interactive<i
+                                        class="fa-solid fa-caret-right"></i></a>
+                                <ul class="interactive-inner-drpdwn">
+                                    <li>Image Gallery</li>
+                                    <li>Testimonials</li>
+                                    <li>Team</li>
+                                    <li>Bannr</li>
+                                    <li>Shop List</li>
+                                    <li>Portfolio List</li>
+                                </ul>
+                            </li>
+                            <li id="typography-drpdwn"><a href="">Typography <i class="fa-solid fa-caret-right"></i></a>
+                                <ul class="typography-inner-drpdwn">
+                                    <li>Headings</li>
+                                    <li>Columns</li>
+                                    <li>Section Title</li>
+                                    <li>Blockquote</li>
+                                    <li>Dropcaps</li>
+                                    <li>Higlights</li>
+                                    <li>Separators</li>
+                                    <li>Custom Font</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+    <section id="slider">
+        <div id="slider-summary">
+            <h3>Send <span>flowers</span> like you mean it.</h3>
+            <p>Where flowers are our inspiration to create lasting memories. Whatever the occasion, our flowers will
+                make it special cursus a sit amet mauris.</p>
+            <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h2-sign-img.png"
+                alt="signaturelogo">
+        </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container fade">
+            <!-- Full images with numbers and message Info -->
+            <div class="Containers">
+                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg"
+                    style="width:100%">
+            </div>
+
+            <div class="Containers">
+                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-2.jpg"
+                    style="width:100%">
+            </div>
+
+            <div class="Containers">
+                <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-3.jpg"
+                    style="width:100%">
+            </div>
+
+            <!-- Back and forward buttons -->
+
+            <a class="back" onclick="plusSlides(-1)">
+                <p id="backwrd_slidenum"></p> <i class="fa-solid fa-arrow-left-long"></i>
+            </a>
+            <a class="forward" onclick="plusSlides(1)">
+                <p id="forwrd_slidenum"></p><i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+        </div>
+        <br>
+
+        <!-- The circles/dots -->
+        <div style="text-align:center">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+        </div>
+
+
+
+    </section>
+
+    <section id="products">
+        <div id="filter">
+            <div id="categories">
+                <button class="category active" data-filter="*"  onclick="filterSelection('all')">ALL</button>
+                <button class="category" onclick="filterSelection('cactuses')">CACTUSES</button>
+                <button class="category" onclick="filterSelection('exotic')">EXOTIC</button>
+                <button class="category" onclick="filterSelection('greens')">GREENS</button>
+                <button class="category" onclick="filterSelection('popular')">POPULAR</button>
+                <button class="category" onclick="filterSelection('various')">VARIOUS</button>
+                <button class="category" onclick="filterSelection('winter')">WINTER</button>
+            </div>
+            <span id="filter-span">FILTER <i class="fa-solid fa-caret-down"></i>
+                <div id="filter-dropdown">
+                    <ul id="sort_by">
+                        <li><a href="">
+                                <h2 id="sort-h2-font">Sort By</h2>
+                            </a></li>
+                        <li><a href="">Default</a></li>
+                        <li><a href="">Popularity</a></li>
+                        <li><a href="">Newness</a></li>
+                        <li><a href="">Price:Low To High</a></li>
+                        <li><a href="">Price:Hogh To Low</a></li>
+                    </ul>
+                    <ul id="price_range">
+                        <li><a href="">
+                                <h2 id="price-h2-font">Price Range</h2>
+                            </a></li>
+                        <li><a href="">All</a></li>
+                        <li><a href="">$0-$10</a></li>
+                        <li><a href="">$10-$20</a></li>
+                        <li><a href="">$20-$30</a></li>
+                        <li><a href="">$30-$40</a></li>
+                        <li><a href="">40$+</a></li>
+
+                    </ul>
+                </div>
+            </span>
+        </div>
+        <div id="product-cards">
+                <div class="card popular winter cactuses">
+                    <div class="card-image">
+                        <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-14-img.jpg"
+                            alt="">
+                    </div>
+                    <div class="card-summary">
+                        <p class="item-name">MAJESTY PALM</p>
+                        <p class="add-to-card">Add to cart</p>
+                        <p class="item-price">$259</p>
+                    </div>
+                </div>
+       
+            <div class="card popular winter">
+                <div class="card-image">
+                    <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-13-img.jpg" alt="">
+                </div>
+                <div class="card-summary">
+                    <p class="item-name">FOXGLOVE FLOWER</p>
+                    <p class="add-to-card">Add to cart</p>
+                    <p class="item-price">$259</p>
+                </div>
+            </div>
+            <div class="card popular winter">
+                <div class="card-image">
+                    <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/shop-10-img.jpg" alt="">
+                </div>
+                <div class="card-summary">
+                    <p class="item-name">SWEET ALYSSUM</p>
+                    <p class="read-more">Read More</p>
+                    <p class="item-price">$259</p>
+                </div>
+            </div>
+            <div class="card popular">
+                <div class="card-image">
+                    <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-11-img.jpg" alt="">
+                </div>
+                <div class="card-summary">
+                    <p class="item-name">SPRING SNOWFLAKE</p>
+                    <p class="add-to-card">Add to cart</p>
+                    <p class="item-price">$170</p>
+                </div>
+            </div>
+            <div class="card popular">
+                <div class="card-image">
+                    <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-12-img.jpg" alt="">
+                </div>
+                <div class="card-summary">
+                    <p class="item-name">SCARLET SAGE</p>
+                    <p class="add-to-card">Add to cart</p>
+                    <p class="item-price"><span style="text-decoration:line-through ;margin-right:5px ;">$259</span>$159
+                    </p>
+                </div>
+            </div>
+            <div class="card various">
+                <div class="card-image">
+                    <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-9-img.jpg" alt="">
+                </div>
+                <div class="card-summary">
+                    <p class="item-name">ROCK SOAPWORT</p>
+                    <p class="view-products">View Produca></p>
+                    <p class="item-price">$259</p>
+                </div>
+            </div>
+            <div class="card greens various">
+                <div class="card-image">
+                    <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-8-img.jpg" alt="">
+                </div>
+                <div class="card-summary">
+                    <p class="item-name">SUMMER SAVORY</p>
+                    <p class="add-to-card">Add to cart</p>
+                    <p class="item-price">$259</p>
+                </div>
+            </div>
+            <div class="card exotic various">
+                <div class="card-image">
+                    <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/shop-7-img.jpg" alt="">
+                </div>
+                <div class="card-summary">
+                    <p class="item-name">WILD ROSES</p>
+                    <p class="buy-on-amazon">Buy on Amaza></p>
+                    <p class="item-price">$259</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
